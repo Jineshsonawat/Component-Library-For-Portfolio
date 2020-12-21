@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    margin:auto;
+}
+
+:root{
+    --primary-color:#1D4ED8;
+}
+
+.container{
+    padding: 0.5rem;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container-centre{
+    text-align: center;
+}
+
+.link{
+    padding: 0.5rem;
+    
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: white;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+.secondary-link{
+    text-decoration: none;
+    border:1px solid var(--primary-color);
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.inline{
+    display:inline;
+    padding:0rem 0.5rem;
+}
+
+.nav{
+    background-color: var(--primary-color);
+    color:white;
+    border-bottom-left-radius: 1rem;  
+}
+
+.list{
+    text-align: right;
+    padding: 0.5rem;
+   
+}
+.color{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.add{
+    padding-top: 0.4rem;
+    padding-left: 0.4rem;
+}
+
+.image{
+    max-width: 300px;
+    margin: auto;
+    display: block;
+}
+
+.rainbow{
+    background-color: rgb(243, 244, 246);
+    padding: 0.5rem;
+}
+
+.margin{
+    padding: 1rem;
+}

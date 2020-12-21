@@ -7,6 +7,8 @@
     <title>Component || Library</title>
 </head>
 
+<link href ="style.css" rel="stylesheet"/>
+
 <body>
     <h1>Jinesh's Component Library</h1>
     <p>I Completed the Neogcamp LevelZero and making this library for Practise.</p>
@@ -25,35 +27,35 @@
 
     <h2>@Containers</h2>
     <h3>@fluid Container</h3>
-    <div>This is fluid container and it will go full width of page with some margins.</div>
+    <div class="container-fluid, container">This is fluid container and it will go full width of page with some margins.</div>
     <h3>@Centre Container</h3>
-    <div>This is centre container and it will go till a specified width/ centre in page. </div>
+    <div class="container-centre container">This is centre container and it will go till a specified width/ centre in page. </div>
 
     <hr/>
 
     <h2>@Links</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="primary-link link" href="/">Primary Link</a>
+    <a class="secondary-link link" href="/">Secondary Link</a>
 
     <hr/>
 
     <h2>@Lists</h2>
     <h3>unordered lists</h3>
-    <ul>
+    <ul class="non-bullet">
         <li>one</li>
         <li>two</li>
         <li>three</li>
     </ul>
 
     <h3>inline lists</h3>
-    <ul>
-        <li>milk</li>
-        <li>egg</li>
-        <li>onion</li>
+    <ul class=" non-bullet">
+        <li class="inline">milk</li>
+        <li class="inline">egg</li>
+        <li class="inline">onion</li>
     </ul>
 
     <h3>ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>mango</li>
         <li>rice</li>
         <li>iron</li>
@@ -62,17 +64,17 @@
     <hr/>
 
     <h2>@Nav</h2>
-    <nav> <h2>Heading name.</h2>
+    <nav class="nav"> <h2 class="add">Heading name.</h2>
 
-        <ul>
-            <li>
-                <a href="/">home</a>
+        <ul class="list">
+            <li  class="inline ">
+                <a class="color" href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li  class="inline ">
+                <a class="color" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li  class="inline ">
+                <a class="color" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -81,19 +83,19 @@
 
     <h2>@Header</h2>
     <header>
-        <img style="width: 220px; display: block;" src="images/image.svg">
+        <img class="image" src="images/image.svg">
         <h1>Heading inside header</h1>
     </header>
 
     <hr/>
 
     <h2>@Section</h2>
-    <section>
+    <section class="container-centre">
         <h3>normal section</h3>
         <p>this is normal section</p>
     </section>
 
-    <section>
+    <section    class="container-centre rainbow">
         <h3>off-white section</h3>
         <p>this is off white section with backgroung color</p>
     </section>
@@ -101,17 +103,17 @@
     <hr/>
 
     <h2>@footer</h2>
-    <footer>
-        <div>big text</div>
-        <ul>
-            <li>
-                <a href="/">one</a>
+    <footer class="nav margin ">
+        <div class="container-centre">big text</div>
+        <ul class="non-bullet container-centre ">
+            <li class="inline color">
+                <a class="color" href="/">one</a>
             </li>
-            <li>
-                <a href="/">two</a>
+            <li class="inline">
+                <a class="color" href="/">two</a>
             </li>
-            <li>
-                <a href="/">three</a>
+            <li class="inline color">
+                <a class="color" href="/">three</a>
             </li>
         </ul>
     </footer>
