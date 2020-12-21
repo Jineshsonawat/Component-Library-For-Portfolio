@@ -1,2 +1,2 @@
-# component-Library-for-Portfolio
- 
+# Component-Library-For-Portfolio
+ Various terms used for making Portfolio
